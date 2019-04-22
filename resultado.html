@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+         {% mercadoria in mercadorias %} 
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+      <input type = "submit" value = "ok" />
+   </body>
+</html>
